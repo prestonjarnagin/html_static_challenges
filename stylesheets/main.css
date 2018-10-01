@@ -1,0 +1,95 @@
+html{
+	font-family: sans-serif;
+}
+
+header {
+	background-color: rgb(189, 40, 40);
+	color: white
+}
+
+h1 {
+	font-size: 14pt;
+	padding: 10px;
+	font-weight: bold;
+}
+
+h2{
+	font-weight: bold;
+	padding: 10px;
+}
+h6{
+	font-weight: bold;
+	font-size: 10pt;
+	margin-bottom: 5px;
+}
+
+p{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.login{
+	position: absolute;
+	top: 5px;
+	right: 8px;
+	text-align: right;
+	padding: 5px;
+	float: right;
+}
+
+nav {
+	background-color: rgb(64,64,64);
+	text-align: right;
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+ul {
+	font-size: 12pt;
+	padding: 15px;
+}
+
+main{
+	position: absolute;
+	left: 0px;
+	padding: 20px;
+	width: 75vw;
+	margin-bottom: 50px;
+}
+
+.subject{
+	max-width: 75vw;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar{
+	position: absolute;
+	right: 0px;
+	padding: 1vw;
+}
+
+.sidebar_element{
+	width: 15vw;
+	height: auto;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+
+footer{
+	background-color: rgb(64,64,64);
+	color: white;
+	font-size: 12px;
+	position: fixed;
+  bottom:0;
+  width:100%;
+}
+
+.footer_text{
+	padding: 10px;
+
+}
